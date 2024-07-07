@@ -1,0 +1,95 @@
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2017/01/08/21/11/wood-1963988_1280.jpg");
+}
+
+
+#hear1,#hear2{
+    position: absolute;
+    border: 5px solid black;
+    width: 100px;
+    height: 100px;
+    border-radius: 60px;
+    background-color:#fc4888;
+    left: 500px;
+    top: 110px;
+    z-index: -35;
+}
+#hear2{
+    left: 750px;
+}
+#face{
+    border:7px solid black;
+    height: 350px;
+    width: 350px;
+    background-color:#fea9bf;
+    border-radius: 100%;
+
+}
+#eye-container{
+    position: absolute;
+    /*border:1px solid black;*/
+    width: 250px;
+    height: 100px;
+    top: 200px;
+    left: 550px;
+}
+#left-eye, #right-eye{
+    position: absolute;
+    border: 4px solid black;
+    height:100px ;
+    width: 100px;
+    background-color: white;
+    border-radius: 50%;
+}
+#right-eye{
+    left: 150px;
+}
+#left-eye::before,#right-eye::before{
+    content: "";
+    position: absolute;
+    border: 5px solid white;
+    width: 55px;
+    height: 55px;
+    background-color:black;
+    border-radius: 100px;
+    top: 18px;
+    left: 18px;
+
+}
+#mouth{
+    position: absolute;
+    border:4px solid black;
+    width: 160px;
+    height: 75px;
+    background-color:#fc4888;
+    top: 350px;
+    left: 600px;
+    border-radius: 200px;
+}
+#nose1,#nose2{
+    position: absolute;
+    border: 5px solid black;
+    width: 30px;
+    height: 40px;
+    background-color: black;
+    left: 25px;
+    bottom: 10px;
+    border-radius:  80px 75px  ;
+}
+#nose2{
+    left: 95px;
+}
+
+
+h1{
+    background-color: snow;
+    border-radius: 1000px;
+    width: 200px;
+    text-shadow: 2px 2px;
+
+
+}
+
+  
+
+
